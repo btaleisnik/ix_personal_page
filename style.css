@@ -1,32 +1,79 @@
-body {
-	background-color: #CCCDEB;
+html {
+	width: 100%;
+	height: 100%;
 }
 
-.name {	
-	color: orange;
-	text-align: center;
-	font-size: 40px;
-	font-family: helvetica;
+body {
+	/*how do I get rid of the margin?*/
+	background-color: #CCCDEB;
+	width: 100%;
+	height: 100%;
+}
+
+
+.fixedHeader {								/*add Menu options to this*/
+	background-color: rgb(19,27,108);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	z-index: 100;
 }
 
 .beachImage {
-	background-image: url(images/beach.jpg);
-	width: 1000px;
-	height: 800px;
+	background-image: url(images/beach.jpg); 
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}												/*I want no margin between images*/
+
+.name {	
+	/*position: absolute;	*/		/*center the text*/
+	text-align: center;
+	color: orange;
+	font-size: 30px;
+	font-family: helvetica;
+	padding-top: 20px;
+
 }
 
-.underwaterImage {
-	background-image: url(images/underwater.jpg);
-	width: 1000px;
-	height: 700px;
-}
-
-.circle {
-	background-color: #CCCDEB;
+.selfie {
+	background-image: url(images/selfie.jpg);
+	background-size: cover;
+	background-color: #CCCDEB;			/*	center this, and add an image within the circle*/
 	border-radius: 50%;
 	height: 200px;
 	width: 200px;
-	position: absolute;
-	top: 50%;
-	right: 50%;
+	margin: 0px auto;
 }
+
+.about {
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+
+
+.michigan {
+	background-image: url(images/michigan.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.education {
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+
+
+
+

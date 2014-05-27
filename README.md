@@ -20,3 +20,9 @@
 - I would like my page to be simple, and colorful yet classy. (Incorporate grey and dark blue like my 3/4 sleeve RVCA shirt)
 -I'll use an image of myself, a screenshot of part of the code to one of my projects, drinkdrivers logo, and waves (if possible)
 
+##
+
+-Home
+-About
+-Education
+-Porfolio
