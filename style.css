@@ -1,0 +1,32 @@
+body {
+	background-color: #CCCDEB;
+}
+
+.name {	
+	color: orange;
+	text-align: center;
+	font-size: 40px;
+	font-family: helvetica;
+}
+
+.beachImage {
+	background-image: url(images/beach.jpg);
+	width: 1000px;
+	height: 800px;
+}
+
+.underwaterImage {
+	background-image: url(images/underwater.jpg);
+	width: 1000px;
+	height: 700px;
+}
+
+.circle {
+	background-color: #CCCDEB;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+}
