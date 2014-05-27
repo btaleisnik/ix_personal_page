@@ -26,3 +26,4 @@
 -About
 -Education
 -Porfolio
+-Contact Info
